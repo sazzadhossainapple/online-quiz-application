@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../images/logo2.png";
 const NavBar = () => {
   return (
-    <div className="navbar py-6 md:px-24 bg-base-100 shadow-lg">
-      <div className="navbar lg:justify-start md:justify-start sm:justify-between justify-between">
+    <div className="navbar py-2 lg:px-24 md:px-10 bg-base-100 shadow-lg">
+      <div className="navbar lg:justify-start md:justify-between sm:justify-between justify-between">
         <div className="dropdown ">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
