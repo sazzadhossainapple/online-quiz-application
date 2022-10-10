@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { ArrowSmallRightIcon } from "@heroicons/react/24/solid";
 
 const Quiz = ({ quiz }) => {
-  console.log(quiz);
   const { id, name, logo, total } = quiz;
   return (
     <div className="w-full rounded-md shadow-md text-black ">
@@ -20,7 +19,7 @@ const Quiz = ({ quiz }) => {
           </p>
         </div>
         <Link
-          to={`../quiz/${id}`}
+          to={`/quiz/${id}`}
           className="btn mt-4 w-full bg-[#209CEE] border-[#209CEE] hover:bg-[#187cbf] hover:border-[#187cbf]"
         >
           Start Quiz
