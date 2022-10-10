@@ -15,7 +15,9 @@ const Header = () => {
             Welcome To
             <span className="text-[#209CEE]"> Primo Quiz</span>
           </h2>
-          <h1 className="text-7xl font-bold my-5">Let's Start The Quiz</h1>
+          <h1 className=" lg:text-7xl md:text-6xl sm:text-4xl text-4xl   font-bold my-5">
+            Let's Start The Quiz
+          </h1>
           <Link
             to="/"
             className="btn mt-4 bg-[#209CEE] border-[#209CEE] hover:bg-[#187cbf] hover:border-[#187cbf]"
