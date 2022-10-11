@@ -7,17 +7,15 @@ const SingleQuiz = ({ singleQuizQuestion, index }) => {
 
   const handleRadioValueChange = (e) => {
     const questionValue = e.target.value;
-    console.log(correctAnswer);
     if (questionValue === correctAnswer) {
-      toast.success("You slected correct answer");
+      toast.success("You slected the correct answer", { autoClose: 1500 });
     } else {
-      console.log("wrong");
-      toast.warning("You slected worng answer");
+      toast.error("You slected the wrong answer", { autoClose: 1500 });
     }
   };
 
   const correctHandler = () => {
-    toast.success(`Answer : ${correctAnswer}`);
+    toast.success(` Correct Answer : ${correctAnswer}`);
   };
 
   return (
@@ -30,7 +28,7 @@ const SingleQuiz = ({ singleQuizQuestion, index }) => {
           />
         </div>
         <h2 className=" text-2xl font-medium  mb-6 ">
-          <span>Quiz {index}</span>:{question}
+          <span>Quiz {index}</span>: {question}
         </h2>
       </div>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-5">

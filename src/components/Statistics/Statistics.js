@@ -8,29 +8,29 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-  BarChart,
-  Bar,
 } from "recharts";
 import { QuizContext } from "../../layout/Main";
 
 const Statistics = () => {
   const totalQuiz = useContext(QuizContext);
-  console.log(totalQuiz);
 
   return (
-    <div className="lg:px-28 md:px-28 sm:px-10 px-10 my-20">
-      <h1 className="text-4xl mb-10 font-bold text-center">Total Quiz Chart</h1>
+    <div className=" md:px-28 sm:pr-10 pr-10 lg:my-16 md:my-10 sm:my-8 my-8">
+      <h1 className="md:text-4xl sm:text-2xl lg:mb-10 md:mb-10 sm:mb-6 mb-6  font-bold text-center">
+        Total Quiz <span className="text-[#209CEE]">Chart</span>
+      </h1>
+      <hr className="w-8 " />
 
-      <div className="flex justify-center items-center">
-        <LineChart width={500} height={300} data={totalQuiz}>
+      <ResponsiveContainer width="100%" aspect={3}>
+        <LineChart width={400} height={300} data={totalQuiz}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="total" stroke="#209CEE" />
         </LineChart>
-      </div>
+      </ResponsiveContainer>
     </div>
   );
 };
