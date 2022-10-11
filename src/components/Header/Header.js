@@ -19,10 +19,10 @@ const Header = () => {
             Let's Start The Quiz
           </h1>
           <Link
-            to="/"
+            to="/blog"
             className="btn mt-4 bg-[#209CEE] border-[#209CEE] hover:bg-[#187cbf] hover:border-[#187cbf]"
           >
-            Start Quiz
+            See Blog
           </Link>
         </div>
       </div>
