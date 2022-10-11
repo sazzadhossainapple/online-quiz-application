@@ -19,8 +19,6 @@ const Statistics = () => {
       <h1 className="md:text-4xl sm:text-2xl lg:mb-10 md:mb-10 sm:mb-6 mb-6  font-bold text-center">
         Total Quiz <span className="text-[#209CEE]">Chart</span>
       </h1>
-      <hr className="w-8 " />
-
       <ResponsiveContainer width="100%" aspect={3}>
         <LineChart width={400} height={300} data={totalQuiz}>
           <CartesianGrid strokeDasharray="3 3" />

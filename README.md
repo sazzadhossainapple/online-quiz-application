@@ -1,10 +1,10 @@
 # Primo Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Live Website Link [Primo Quiz]().
 
 ## Live Website Link
 
-In the project directory, you can run:
+Live Website Link:
 
 ### Description
 
@@ -14,7 +14,7 @@ In the project directory, you can run:
 
 -> If this website quiz related user clicks on a topic, some questions related to that topic are given.
 
-#### Use technology
+### Use technology
 
 -> react router dom, context API.
 -> CSS Framework Tailwind
