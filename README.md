@@ -1,10 +1,10 @@
 # Primo Quiz
 
-This Live Website Link [Primo Quiz]().
+This Live Website Link [Primo Quiz](https://magenta-mousse-1b33ba.netlify.app/).
 
 ## Live Website Link
 
-Live Website Link:
+Live Website Link: https://magenta-mousse-1b33ba.netlify.app/
 
 ### Description
 
