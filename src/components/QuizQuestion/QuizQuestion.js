@@ -1,14 +1,18 @@
 import React from "react";
 
-const QuizQuestion = ({ question }) => {
+const QuizQuestion = ({ question, handleRadioValueChange }) => {
   return (
-    <div className="flex  border p-5 items-center">
-      <input
-        type="radio"
-        name="radio-2"
-        className="radio border-[#209CEE] checked:bg-[#209CEE]"
-      />
-      <h1 className="ml-2">{question.split("<p>")}</h1>
+    <div>
+      <label className="flex border p-5 ">
+        <input
+          onChange={handleRadioValueChange}
+          value={question}
+          type="radio"
+          name="radio-2"
+          className="radio border-[#209CEE] checked:bg-[#209CEE] mr-2"
+        />
+        {question}
+      </label>
     </div>
   );
 };

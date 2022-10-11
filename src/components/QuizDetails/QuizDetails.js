@@ -13,8 +13,9 @@ const QuizDetails = () => {
         Quiz of <span className="text-[#209CEE]">{name}</span>
       </h1>
       <div>
-        {questions.map((singleQuizQuestion) => (
+        {questions.map((singleQuizQuestion, index) => (
           <SingleQuiz
+            index={index}
             key={singleQuizQuestion.id}
             singleQuizQuestion={singleQuizQuestion}
           />
