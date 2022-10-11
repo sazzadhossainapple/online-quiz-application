@@ -1,10 +1,6 @@
-import React, { useContext } from "react";
-import { QuizContext } from "../../layout/Main";
 import BlogDetails from "../BlogDetails/BlogDetails";
 
 const Blog = () => {
-  const slf = useContext(QuizContext);
-  console.log(slf);
   const blogsContent = [
     {
       id: 1,

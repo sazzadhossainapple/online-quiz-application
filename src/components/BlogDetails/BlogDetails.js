@@ -7,9 +7,9 @@ const BlogDetails = ({ blogDetils }) => {
       <img
         src="https://live.staticflickr.com/65535/52413593240_e00326e727_o.png"
         alt=""
-        className="w-full h-60 sm:h-96 bg-gray-500"
+        className="w-full h-60 sm:h-[500px] bg-gray-500"
       />
-      <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-900">
+      <div className="p-6 pb-12 m-4 mx-auto sm:-mt-16 mt-0 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-900">
         <div className="space-y-2">
           <h1 className="inline-block text-2xl font-semibold sm:text-3xl">
             {title}

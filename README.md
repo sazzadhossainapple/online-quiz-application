@@ -14,7 +14,8 @@ In the project directory, you can run:
 
 -> If this website quiz related user clicks on a topic, some questions related to that topic are given.
 
-Use technology
+#### Use technology
+
 -> react router dom, context API.
 -> CSS Framework Tailwind
 -> Recharts, HeroIcons
