@@ -7,7 +7,7 @@ const QuizQuestion = ({ question, handleRadioValueChange }) => {
         onChange={handleRadioValueChange}
         value={question}
         type="radio"
-        name={question}
+        name="radio-2"
         className="radio border-[#209CEE] checked:bg-[#209CEE] mr-2"
       />
       {question}

@@ -15,7 +15,7 @@ const QuizDetails = () => {
       <div>
         {questions.map((singleQuizQuestion, index) => (
           <SingleQuiz
-            index={index}
+            index={index + 1}
             key={singleQuizQuestion.id}
             singleQuizQuestion={singleQuizQuestion}
           />
