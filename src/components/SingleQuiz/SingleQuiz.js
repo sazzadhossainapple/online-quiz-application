@@ -15,7 +15,7 @@ const SingleQuiz = ({ singleQuizQuestion, index }) => {
   };
 
   const correctHandler = () => {
-    toast.success(` Correct Answer : ${correctAnswer}`);
+    toast.success(` Correct Answer : ${correctAnswer}`, { autoClose: 1500 });
   };
 
   return (
